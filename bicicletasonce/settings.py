@@ -80,11 +80,10 @@ WSGI_APPLICATION = 'bicicletasonce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bicicletasOncePy',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'NAME': 'bicicletasonce$bicicletasOnce',
+        'USER': 'bicicletasonce',
+        'PASSWORD': 'rootroot',
+        'HOST': 'bicicletasonce.mysql.pythonanywhere-services.com',
     }
 }
 
