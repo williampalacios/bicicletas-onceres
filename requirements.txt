@@ -1,0 +1,4 @@
+mysqlclient
+Django
+Pillow
+django-imagekit

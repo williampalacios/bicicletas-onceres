@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>{{ object.nombreproducto }}</h1>
+
+  <p><strong>ID: {{ object.idproducto }} </strong></p> 
+  <img src="{{ object.imagentest.url }}" width="240">   
+  <p><strong>Precio: ${{ object.preciounidad }} MXN </strong></p>
+
+{% endblock %}
